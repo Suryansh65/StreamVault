@@ -1,0 +1,10 @@
+.contact-container{
+    box-shadow: 4px 4px 10px grey;
+    width: 70%;
+    margin: 4% auto;
+    padding: 20px;
+
+}
+.contact-heading{
+    text-align: center;
+}

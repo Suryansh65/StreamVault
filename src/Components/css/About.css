@@ -1,0 +1,17 @@
+body{
+        font-family: "Noto Sans", sans-serif;
+        margin-bottom: 100px;
+}
+.heading-about{
+    text-align: center;
+}
+.about{
+    width: 70%;
+    padding: 20px;
+    box-shadow: 4px 4px 10px grey;
+    margin: 10px auto;
+}
+.about span{
+    color: blue;
+    font-weight: 600;
+}

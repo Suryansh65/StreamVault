@@ -1,0 +1,20 @@
+.home-heading{
+    text-align: center;
+
+}
+.video-grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.fullscreen-container{
+    margin-top: 10px;
+}
+.full-screen-link{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    
+}

@@ -1,0 +1,65 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+.login-main-container{
+    box-shadow: 4px 4px 30px grey;
+    width: 500px;
+    
+    margin: 0 auto;
+    transform: translate(0,40%);
+}
+.login-logo-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    align-items: center;
+}
+.login-logo-container img{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+
+}
+.login-heading{
+    text-align: center;
+    
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+}
+.login-container input{
+    width: 80%;
+    margin: 5px auto;
+    height: 40px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 10px grey;
+    
+    padding-left: 10px;
+}
+.btn{
+    width: 70%;
+    margin: 0 auto;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(245, 241, 8);
+    transition: all .1s ease-in;
+    cursor: pointer;
+}
+.btn:hover{
+    
+    background-color: black;
+    color: white;
+}
+.signup-link{
+    margin: 0 auto;
+    text-decoration: none;
+    margin-top: 10px;
+}

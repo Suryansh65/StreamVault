@@ -1,0 +1,45 @@
+.upload-main-container{
+    box-shadow:5px 5px 20px grey;
+    width: 500px;
+    margin: 4% auto;
+    padding: 20px;
+    
+    
+}
+.upload-main-container h2{
+    text-align: center;
+}
+.upload-main-container form{
+    display: flex;
+    flex-direction: column;
+
+}
+.upload-input{
+    padding-left: 20px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 4px 10px grey;
+    margin: 10px auto;
+}
+.public-container, .private-container{
+    display: flex;
+    margin: 10px auto;
+}
+.upload-input-file{
+    margin: 10px auto;
+    font-size: 15px;
+}
+.upload-main-container button{
+    width: 50%;
+    margin: 10px auto;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+}
+.upload-main-container button:hover{
+    background-color: black;
+    color: white;
+}
